@@ -1,0 +1,21 @@
+{
+  "name": "agri-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "agri-root": "file:..",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.8.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

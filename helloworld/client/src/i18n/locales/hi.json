@@ -1,0 +1,257 @@
+{
+    "common": {
+        "loading": "लोड हो रहा है...",
+        "error": "त्रुटि",
+        "success": "सफलता",
+        "save": "सहेजें",
+        "cancel": "रद्द करें",
+        "close": "बंद करें",
+        "back": "वापस",
+        "next": "अगला",
+        "submit": "प्रस्तुत करें",
+        "delete": "हटाएं",
+        "edit": "संपादित करें",
+        "add": "जोड़ें",
+        "search": "खोज",
+        "filter": "फ़िल्टर",
+        "refresh": "ताज़ा करें",
+        "yes": "हाँ",
+        "no": "नहीं",
+        "updated": "अद्यतन",
+        "critical": "गंभीर",
+        "high": "उच्च",
+        "low": "कम",
+        "normal": "सामान्य",
+        "caution": "सावधानी",
+        "match": "मिलान"
+    },
+    "dashboard": {
+        "title": "कृषि डैशबोर्ड",
+        "welcome": "सटीक कृषि में आपका स्वागत है",
+        "tabs": {
+            "dashboard": "डैशबोर्ड",
+            "fields": "खेत",
+            "cropMonitor": "फसल निगरानी",
+            "analytics": "विश्लेषण"
+        }
+    },
+    "metrics": {
+        "moisture": "मिट्टी की नमी",
+        "temperature": "तापमान",
+        "humidity": "आर्द्रता",
+        "nitrogen": "नाइट्रोजन",
+        "phosphorus": "फास्फोरस",
+        "potassium": "पोटेशियम",
+        "ph": "pH स्तर",
+        "soilTemp": "मिट्टी का तापमान",
+        "health": "फसल स्वास्थ्य",
+        "yield": "उपज स्वास्थ्य"
+    },
+    "irrigation": {
+        "title": "सिंचाई अनुशंसा",
+        "action": "कार्रवाई",
+        "amount": "मात्रा",
+        "duration": "अवधि",
+        "timing": "सबसे अच्छा समय",
+        "reason": "कारण",
+        "irrigate": "सिंचाई करें",
+        "delay": "सिंचाई में देरी",
+        "optimal": "इष्टतम",
+        "priority": "प्राथमिकता",
+        "high": "उच्च",
+        "medium": "मध्यम",
+        "low": "कम"
+    },
+    "weather": {
+        "current": "वर्तमान मौसम",
+        "forecast": "पूर्वानुमान",
+        "rainChance": "बारिश की संभावना",
+        "windSpeed": "हवा की गति",
+        "solarRadiation": "सौर विकिरण"
+    },
+    "soil": {
+        "moisture": "मिट्टी की नमी",
+        "type": "मिट्टी का प्रकार",
+        "nutrients": "पोषक तत्व",
+        "status": "स्थिति",
+        "optimal": "इष्टतम",
+        "low": "कम",
+        "high": "उच्च"
+    },
+    "crops": {
+        "type": "फसल के प्रकार",
+        "health": "फसल स्वास्थ्य",
+        "growth": "विकास चरण",
+        "monitoring": "फसल निगरानी",
+        "recommendations": "सिफारिशें",
+        "diseases": "रोग का पता लगाना",
+        "names": {
+            "barley": "जौ",
+            "cotton": "कपास",
+            "ground nuts": "मूंगफली",
+            "maize": "मक्का",
+            "millets": "बाजरा",
+            "oil seeds": "तिलहन",
+            "paddy": "धान",
+            "pulses": "दालें",
+            "sugarcane": "गन्ना",
+            "tobacco": "तंबाकू",
+            "wheat": "गेहूं",
+            "tomato": "टमाटर",
+            "rice": "चावल"
+        }
+    },
+    "alerts": {
+        "title": "अलर्ट और सूचनाएं",
+        "esp32Title": "ESP32 चेतावनी प्रणाली",
+        "description": "मिट्टी की नमी के आधार पर स्वचालित अलर्ट:",
+        "normalRange": "सामान्य (40-60%)",
+        "cautionRange": "सावधानी (30-40% या 60-75%)",
+        "criticalRange": "गंभीर (<30% या >75%)",
+        "testInstructions": "परीक्षण बटन ईएसपी32 को सत्यापित करने के लिए एक बार ओवरराइड करते हैं, फिर स्वचालित रूप से निगरानी पर लौट आते हैं",
+        "esp32State": "ESP32 स्थिति (लाइव सिंक)",
+        "testOverride": "परीक्षण ओवरराइड (स्वतः पुनरारंभ...)",
+        "waitingSync": "स्थिति सिंक की प्रतीक्षा कर रहा है...",
+        "activeAlerts": "सक्रिय अलर्ट",
+        "normal": {
+            "title": "सामान्य",
+            "led": "हरा एलईडी • कोई अलर्ट नहीं",
+            "desc": "इष्टतम नमी सीमा (40-60%)। सिस्टम सामान्य रूप से काम कर रहा है।"
+        },
+        "caution": {
+            "title": "सावधानी",
+            "led": "नीला एलईडी + 1 लंबी बीप",
+            "desc": "नमी इष्टतम सीमा से बाहर (30-40% या 60-75%)। बारीकी से निगरानी करें।"
+        },
+        "critical": {
+            "title": "गंभीर",
+            "led": "लाल एलईडी + 5 बीप",
+            "desc": "अत्यधिक नमी स्तर (<30% या >75%)। तत्काल कार्रवाई आवश्यक है।"
+        }
+    },
+    "analytics": {
+        "title": "विश्लेषण",
+        "trends": "रुझान",
+        "waterSavings": "जल बचत",
+        "efficiency": "दक्षता",
+        "history": "ऐतिहासिक डेटा",
+        "charts": "चार्ट",
+        "reports": "रिपोर्ट",
+        "irrigationEvents": "सिंचाई की घटनाएं",
+        "moistureTrend": "नमी की प्रवृत्ति"
+    },
+    "chatbot": {
+        "title": "AI सहायक",
+        "subtitle": "सटीक कृषि सहायक",
+        "greeting": "नमस्ते! मैं आपका AI कृषि सहायक हूँ। मैं सिंचाई अनुशंसाओं, फसल स्वास्थ्य और जल प्रबंधन में मदद कर सकता हूँ। आज मैं आपकी कैसे सहायता कर सकता हूँ?",
+        "placeholder": "सिंचाई, फसलों, नमी के बारे में पूछें...",
+        "send": "भेजें",
+        "typing": "टाइप कर रहा है...",
+        "errorMessage": "क्षमा करें, एक त्रुटि हुई। पुनः प्रयास करें।"
+    },
+    "photoUpload": {
+        "title": "फोटो अपलोड करें",
+        "instructions": "अपलोड करने के लिए क्लिक करें या खींचें",
+        "analyzing": "छवि का विश्लेषण कर रहे हैं...",
+        "results": "विश्लेषण परिणाम",
+        "disease": "रोग का पता चला",
+        "healthy": "स्वस्थ फसल",
+        "confidence": "विश्वास",
+        "recommendations": "सिफारिशें"
+    },
+    "fields": {
+        "title": "खेत प्रबंधन",
+        "addField": "खेत जोड़ें",
+        "fieldName": "खेत का नाम",
+        "area": "क्षेत्रफल",
+        "crop": "फसल",
+        "status": "स्थिति",
+        "uploadImage": "छवि अपलोड करें"
+    },
+    "esp32": {
+        "control": "ESP32 नियंत्रण",
+        "manual": "मैनुअल मोड",
+        "automatic": "स्वचालित मोड",
+        "turnOn": "चालू करें",
+        "turnOff": "बंद करें",
+        "status": "स्थिति",
+        "connected": "कनेक्टेड",
+        "disconnected": "डिस्कनेक्टेड"
+    },
+    "market": {
+        "recommendations": "बाज़ार सिफारिशें",
+        "prices": "कीमतें",
+        "trends": "बाज़ार रुझान",
+        "demand": "मांग",
+        "seasonTitle": "वर्तमान मौसम",
+        "bestSeason": "सर्वोत्तम मौसम",
+        "demandLevels": {
+            "very_high": "बहुत अधिक",
+            "high": "अधिक",
+            "medium": "मध्यम",
+            "low": "कम"
+        },
+        "seasons": {
+            "kharif_jun_oct": "खरीफ (जून-अक्टूबर)",
+            "rabi_oct_mar": "रबी (अक्टूबर-मार्च)",
+            "kharif_jun_sep": "खरीफ (जून-सितंबर)",
+            "kharif_jun_dec": "खरीफ (जून-दिसंबर)",
+            "rabi_oct_feb": "रबी (अक्टूबर-फरवरी)",
+            "year_round_oct_feb": "साल भर (सर्वोत्तम: अक्टूबर-फरवरी)",
+            "year_round_feb_may": "साल भर (सर्वोत्तम: फरवरी-मई)",
+            "winter": "सर्दी",
+            "monsoon": "मानसून",
+            "spring": "वसंत",
+            "summer": "गर्मी"
+        },
+        "reasons": {
+            "phOptimal": "{{crop}} के लिए मिट्टी का pH ({{val}}) इष्टतम है",
+            "phAdjust": "{{crop}} के लिए मिट्टी का pH ({{val}}) समायोजित करने की आवश्यकता हो सकती है",
+            "tempIdeal": "तापमान ({{val}}°C) {{crop}} के लिए आदर्श है",
+            "tempLow": "तापमान ({{val}}°C) {{crop}} के लिए कम है",
+            "tempHigh": "तापमान ({{val}}°C) {{crop}} के लिए बहुत अधिक है",
+            "moistureSuitable": "नमी ({{val}}%) {{crop}} के लिए उपयुक्त है",
+            "moistureLow": "नमी ({{val}}%) {{crop}} के लिए कम है, सिंचाई की आवश्यकता है",
+            "moistureHigh": "नमी ({{val}}%) {{crop}} के लिए अधिक है, जल निकासी की आवश्यकता हो सकती है",
+            "soilIdeal": "{{soil}} मिट्टी {{crop}} के लिए आदर्श है",
+            "soilSuitable": "{{soil}} मिट्टी {{crop}} के लिए उपयुक्त है",
+            "humidityFavorable": "आर्द्रता ({{val}}%) अनुकूल है"
+        },
+        "match": {
+            "ph": "PH संगत",
+            "climate": "जलवायु संगत"
+        },
+        "noData": {
+            "title": "बाज़ार डेटा उपलब्ध नहीं",
+            "desc": "वैश्विक बाज़ार रुझानों से जुड़ रहा है..."
+        }
+    },
+    "settings": {
+        "title": "सेटिंग्स",
+        "language": "भाषा",
+        "notifications": "सूचनाएं",
+        "preferences": "प्राथमिकताएं",
+        "account": "खाता"
+    },
+    "units": {
+        "celsius": "°C",
+        "fahrenheit": "°F",
+        "percentage": "%",
+        "liters": "L",
+        "litersPerSqM": "L/m²",
+        "minutes": "मिनट",
+        "hours": "घंटे",
+        "days": "दिन",
+        "kgPerHa": "kg/ha",
+        "mgPerKg": "mg/kg"
+    },
+    "messages": {
+        "saveSuccess": "सफलतापूर्वक सहेजा गया!",
+        "saveError": "डेटा सहेजने में त्रुटि",
+        "deleteSuccess": "सफलतापूर्वक हटाया गया!",
+        "deleteError": "डेटा हटाने में त्रुटि",
+        "updateSuccess": "सफलतापूर्वक अपडेट किया गया!",
+        "updateError": "डेटा अपडेट करने में त्रुटि",
+        "connectionError": "कनेक्शन त्रुटि। पुनः प्रयास करें।"
+    }
+}

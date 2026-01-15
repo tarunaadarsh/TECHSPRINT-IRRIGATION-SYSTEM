@@ -1,0 +1,260 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "save": "Save",
+        "cancel": "Cancel",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "submit": "Submit",
+        "delete": "Delete",
+        "edit": "Edit",
+        "add": "Add",
+        "search": "Search",
+        "filter": "Filter",
+        "refresh": "Refresh",
+        "yes": "Yes",
+        "no": "No",
+        "updated": "Updated",
+        "critical": "Critical",
+        "high": "High",
+        "low": "Low",
+        "normal": "Normal",
+        "caution": "Caution",
+        "match": "Match"
+    },
+    "dashboard": {
+        "title": "AgriSmart Dashboard",
+        "welcome": "Welcome to Precision Agriculture",
+        "tabs": {
+            "dashboard": "Dashboard",
+            "fields": "Fields",
+            "cropMonitor": "Crop Monitor",
+            "analytics": "Analytics"
+        }
+    },
+    "metrics": {
+        "moisture": "Soil Moisture",
+        "temperature": "Temperature",
+        "humidity": "Humidity",
+        "nitrogen": "Nitrogen",
+        "phosphorus": "Phosphorus",
+        "potassium": "Potassium",
+        "ph": "pH Level",
+        "soilTemp": "Soil Temperature",
+        "health": "Crop Health",
+        "yield": "Yield Health"
+    },
+    "irrigation": {
+        "title": "Irrigation Recommendation",
+        "action": "Action",
+        "amount": "Amount",
+        "duration": "Duration",
+        "timing": "Best Time",
+        "reason": "Reason",
+        "irrigate": "Irrigate",
+        "delay": "Delay Irrigation",
+        "optimal": "Optimal",
+        "priority": "Priority",
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+    },
+    "weather": {
+        "current": "Current Weather",
+        "forecast": "Forecast",
+        "rainChance": "Chance of Rain",
+        "windSpeed": "Wind Speed",
+        "solarRadiation": "Solar Radiation"
+    },
+    "soil": {
+        "moisture": "Soil Moisture",
+        "type": "Soil Type",
+        "nutrients": "Nutrients",
+        "status": "Status",
+        "optimal": "Optimal",
+        "low": "Low",
+        "high": "High"
+    },
+    "crops": {
+        "type": "Crop Type",
+        "health": "Crop Health",
+        "growth": "Growth Stage",
+        "monitoring": "Crop Monitoring",
+        "recommendations": "Recommendations",
+        "diseases": "Disease Detection",
+        "names": {
+            "barley": "Barley",
+            "cotton": "Cotton",
+            "ground nuts": "Ground Nuts",
+            "maize": "Maize",
+            "millets": "Millets",
+            "oil seeds": "Oil Seeds",
+            "paddy": "Paddy",
+            "pulses": "Pulses",
+            "sugarcane": "Sugarcane",
+            "tobacco": "Tobacco",
+            "wheat": "Wheat",
+            "tomato": "Tomato",
+            "rice": "Rice"
+        }
+    },
+    "alerts": {
+        "title": "Alerts & Notifications",
+        "esp32Title": "ESP32 Alert System",
+        "description": "Automatic alerts based on soil moisture",
+        "normalRange": "Normal (40-60%)",
+        "cautionRange": "Caution (30-40% or 60-75%)",
+        "criticalRange": "Critical (<30% or >75%)",
+        "testInstructions": "Test buttons override once to verify ESP32, then automatically return to monitoring",
+        "esp32State": "ESP32 State (Live Synced)",
+        "testOverride": "Test Override (Auto-resuming...)",
+        "waitingSync": "Waiting for status sync...",
+        "activeAlerts": "Active Alerts",
+        "normal": {
+            "title": "Normal",
+            "led": "Green LED • No Alert",
+            "desc": "Optimal moisture range (40-60%). System operating normally."
+        },
+        "caution": {
+            "title": "Caution",
+            "led": "Blue LED + 1 Long Beep",
+            "desc": "Moisture outside optimal range (30-40% or 60-75%). Monitor closely."
+        },
+        "critical": {
+            "title": "Critical",
+            "led": "Red LED + 5 Beeps",
+            "desc": "Extreme moisture levels (<30% or >75%). Immediate action required."
+        }
+    },
+    "analytics": {
+        "title": "Analytics",
+        "trends": "Trends",
+        "waterSavings": "Water Savings",
+        "efficiency": "Efficiency",
+        "history": "Historical Data",
+        "charts": "Charts",
+        "reports": "Reports",
+        "irrigationEvents": "Irrigation Events",
+        "moistureTrend": "Moisture Trend"
+    },
+    "history": {
+        "title": "History"
+    },
+    "chatbot": {
+        "title": "AI Assistant",
+        "subtitle": "Precision Agriculture Helper",
+        "greeting": "Hello! I'm your AI Agriculture Assistant. I can help you with irrigation recommendations, crop health, and water management. How can I assist you today?",
+        "placeholder": "Ask about irrigation, crops, moisture...",
+        "send": "Send",
+        "typing": "Typing...",
+        "errorMessage": "Sorry, I encountered an error. Please try again."
+    },
+    "photoUpload": {
+        "title": "Upload Photo",
+        "instructions": "Click or drag to upload",
+        "analyzing": "Analyzing image...",
+        "results": "Analysis Results",
+        "disease": "Disease Detected",
+        "healthy": "Healthy Crop",
+        "confidence": "Confidence",
+        "recommendations": "Recommendations"
+    },
+    "fields": {
+        "title": "Fields Management",
+        "addField": "Add Field",
+        "fieldName": "Field Name",
+        "area": "Area",
+        "crop": "Crop",
+        "status": "Status",
+        "uploadImage": "Upload Image"
+    },
+    "esp32": {
+        "control": "ESP32 Control",
+        "manual": "Manual Mode",
+        "automatic": "Automatic Mode",
+        "turnOn": "Turn On",
+        "turnOff": "Turn Off",
+        "status": "Status",
+        "connected": "Connected",
+        "disconnected": "Disconnected"
+    },
+    "market": {
+        "recommendations": "Market Recommendations",
+        "prices": "Prices",
+        "trends": "Market Trends",
+        "demand": "Demand",
+        "seasonTitle": "Current Season",
+        "bestSeason": "Best Season",
+        "demandLevels": {
+            "very_high": "Very High",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+        },
+        "seasons": {
+            "kharif_jun_oct": "Kharif (Jun-Oct)",
+            "rabi_oct_mar": "Rabi (Oct-Mar)",
+            "kharif_jun_sep": "Kharif (Jun-Sep)",
+            "kharif_jun_dec": "Kharif (Jun-Dec)",
+            "rabi_oct_feb": "Rabi (Oct-Feb)",
+            "year_round_oct_feb": "Year-round (Oct-Feb)",
+            "year_round_feb_may": "Year-round (Feb-May)",
+            "winter": "Winter",
+            "monsoon": "Monsoon",
+            "spring": "Spring",
+            "summer": "Summer"
+        },
+        "reasons": {
+            "phOptimal": "Soil pH ({{val}}) is optimal for {{crop}}",
+            "phAdjust": "Soil pH ({{val}}) may need adjustment for {{crop}}",
+            "tempIdeal": "Temperature ({{val}}°C) is ideal for {{crop}}",
+            "tempLow": "Temperature ({{val}}°C) is below optimal for {{crop}}",
+            "tempHigh": "Temperature ({{val}}°C) is above optimal for {{crop}}",
+            "moistureSuitable": "Moisture ({{val}}%) is suitable for {{crop}}",
+            "moistureLow": "Moisture ({{val}}%) is low for {{crop}}, irrigation needed",
+            "moistureHigh": "Moisture ({{val}}%) is high for {{crop}}, may need drainage",
+            "soilIdeal": "{{soil}} soil is ideal for {{crop}}",
+            "soilSuitable": "{{soil}} soil is suitable for {{crop}}",
+            "humidityFavorable": "Humidity ({{val}}%) is favorable"
+        },
+        "match": {
+            "ph": "PH MATCH",
+            "climate": "CLIMATE MATCH"
+        },
+        "noData": {
+            "title": "No Market Data",
+            "desc": "Connecting to global market trends..."
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "language": "Language",
+        "notifications": "Notifications",
+        "preferences": "Preferences",
+        "account": "Account"
+    },
+    "units": {
+        "celsius": "°C",
+        "fahrenheit": "°F",
+        "percentage": "%",
+        "liters": "L",
+        "litersPerSqM": "L/m²",
+        "minutes": "min",
+        "hours": "hrs",
+        "days": "days",
+        "kgPerHa": "kg/ha",
+        "mgPerKg": "mg/kg"
+    },
+    "messages": {
+        "saveSuccess": "Saved successfully!",
+        "saveError": "Error saving data",
+        "deleteSuccess": "Deleted successfully!",
+        "deleteError": "Error deleting data",
+        "updateSuccess": "Updated successfully!",
+        "updateError": "Error updating data",
+        "connectionError": "Connection error. Please try again."
+    }
+}

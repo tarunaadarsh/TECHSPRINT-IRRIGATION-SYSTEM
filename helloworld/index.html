@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>India Water Based Crop Zones</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+
+<style>
+body{margin:0;background:black}
+#map{position:absolute;top:0;bottom:0;width:100%}
+
+/* Legend */
+.legend{
+ position:absolute;
+ bottom:20px;
+ left:20px;
+ background:rgba(0,255,100,.08);
+ border:1px solid rgba(0,255,100,.4);
+ backdrop-filter:blur(8px);
+ border-radius:12px;
+ padding:14px 18px;
+ color:#8fff9a;
+ font-family:Arial;
+ box-shadow:0 0 20px rgba(0,255,120,.5);
+ cursor:pointer;
+}
+
+.legend-item{
+ display:flex;
+ align-items:center;
+ margin:6px 0;
+ font-size:14px;
+ transition:0.2s;
+}
+
+.legend-item:hover{
+ transform:scale(1.04);
+}
+
+.legend span{
+ width:14px;
+ height:14px;
+ display:inline-block;
+ border-radius:50%;
+ margin-right:8px;
+}
+</style>
+
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<div class="legend">
+ <div class="legend-item" onclick="setMode('high')">
+   <span style="background:#00ff6a"></span>
+   High Water Crops
+ </div>
+
+ <div class="legend-item" onclick="setMode('less')">
+   <span style="background:#7CFC00"></span>
+   Less Water Crops
+ </div>
+
+ <div class="legend-item" onclick="setMode('no')">
+   <span style="background:#9AFFC4"></span>
+   Low / No Water Crops
+ </div>
+</div>
+
+</body>
+</html>
