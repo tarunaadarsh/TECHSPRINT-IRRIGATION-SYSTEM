@@ -11,6 +11,7 @@ const IntelligenceService = require('./services/intelligence');
 const ESP32Service = require('./services/esp32Service');
 const TelegramService = require('./services/telegramService');
 const GeminiService = require('./services/geminiService');
+console.log("🔍 DEBUG: Server Startup. GeminiService imported:", typeof GeminiService);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -481,6 +482,7 @@ app.post('/api/recommend-crops', async (req, res) => {
 // 10. Gemini Image Analysis Endpoint (GeminiService already loaded above)
 app.post('/api/analyze-image', async (req, res) => {
     try {
+        console.log("🔍 DEBUG:/api/analyze-image called. GeminiService is:", typeof GeminiService, GeminiService ? "Present" : "Missing");
         const { image, cropType, sensorData, language } = req.body;
 
         if (!image) {
