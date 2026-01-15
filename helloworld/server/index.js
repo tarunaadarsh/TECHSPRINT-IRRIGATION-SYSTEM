@@ -10,6 +10,7 @@ const Recommendation = require('./models/Recommendation');
 const IntelligenceService = require('./services/intelligence');
 const ESP32Service = require('./services/esp32Service');
 const TelegramService = require('./services/telegramService');
+const GeminiService = require('./services/geminiService');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
