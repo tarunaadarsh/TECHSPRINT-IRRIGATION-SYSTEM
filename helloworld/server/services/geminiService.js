@@ -3,7 +3,7 @@ const axios = require('axios');
 // Gemini API Service for Image Analysis and Chatbot
 class GeminiService {
     constructor() {
-        this.API_KEY = process.env.GEMINI_API || 'AIzaSyABSvEhE-AvT4O_Y-f3YDoi6mofoR7jbWc';
+        this.API_KEY = process.env.GEMINI_API || process.env.GEMINI_API_KEY || 'AIzaSyABSvEhE-AvT4O_Y-f3YDoi6mofoR7jbWc';
         // Updated Gemini API endpoints - using gemini-1.5-flash for v1beta compatibility
         this.IMAGE_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.API_KEY}`;
         this.CHAT_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.API_KEY}`;
